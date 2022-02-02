@@ -49,7 +49,7 @@ const functions = {
     childProcess.execSync('node ' + puppeteerScript)
 
     const output = fs.readFileSync(outputFile, 'utf-8')
-    return '<div class="mermaid" data-processed="true">\n' + output + '\n</div>\n'
+    return '<pre class="mermaid" data-processed="true">\n' + output + '\n</pre>\n'
   }
 }
 
