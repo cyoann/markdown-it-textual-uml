@@ -10,7 +10,7 @@ const functions = {
   },
 
   getMarkup(code) {
-    return `<div class="mermaid">\n${code}\n</div>\n`
+    return `<pre class="mermaid">\n${code}\n</pre>\n`
   }
 }
 
